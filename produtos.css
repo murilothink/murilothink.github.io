@@ -361,7 +361,7 @@ footer{
 .reconhecimentoCPS{
 
 	padding-right: 90px;
-	font-size: 60px;
+	font-size: 40px;
 	padding: 80px;
 
 }
@@ -374,7 +374,7 @@ footer{
 .reconhecimentoCPSo{
 	
 	text-align: right;
-	font-size: 60px;
+	font-size: 40px;
 	padding: 80px;
 }
 
@@ -397,4 +397,14 @@ footer{
     font-size: 30px;
     float:right;
 
+}
+
+
+.centroCertificado{
+
+	padding: 10px;
+	padding-left: 90px;
+	width: 500px;
+	height: 330px;
+	border-radius: 1%;
 }
