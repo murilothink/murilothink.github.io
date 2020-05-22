@@ -159,7 +159,7 @@ footer{
 
 .copyright{
 
-	color: #ffffff
+	color: #9e0cf2
 
 }
 
@@ -218,10 +218,11 @@ footer{
 }
 
 .conhecimentos{
-	padding-left: 50px;
+	text-align: center;
 	font-size: 25px;
-	font-style: normal; 
+	font-style: italic; 
 	padding: 30px;
+	font-weight: bold;
 }
 .conhecimento li {
 
@@ -340,15 +341,18 @@ footer{
 .hr3 {
   border: 0;
   height: 5px;
-  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  background-image: linear-gradient(to right, transparent, #9e0cf2, transparent);  
 }
 
 
 .reconhecimentoh1{
+	text-align: center;
 	padding-left: 50px;
 	font-size: 25px;
-	font-style: normal; 
+	font-style: italic; 
 	padding: 30px;
+	font-weight: bold;
+}
 
 }
 
