@@ -87,82 +87,6 @@ nav a{
 	color: black;
 }
 
-.produto {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-
-
-.produto li{
-	display: inline-block;
-	vertical-align: top;
-	width: 30%;
-	margin-top: 10px;
-	border-color: #000000;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 20px;
-
-}
-
-.produto li:hover{
-	color: pink;
-	border-color: pink;
-	
-}
-
-.produto li:hover h2{
-	font-size: 40px;
-}
-
-.produto li:active{
-	color: red;
-	border-color: red;
-}
-
-
-.produto h2 {
-	text-align: center;
-	font-weight:bold;
-	
-}
-
-.produto p {
-
-}
-
-.titulo-promocao{
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.descricao{
-	font-size: 17px;
-
-}
-
-.precoprod{
-
-	font-size: 30px;
-	color: red;
-	margin: 23px;
-
-}
-
-footer{
-
-	text-align: center;
-	background: #000000;
-	padding: 40px 0;
-}
-
-.copyright{
-
-	color: #ffffff
-
-}
-
 
 .topnav {
 
@@ -226,7 +150,9 @@ footer{
 }
 .conhecimento li {
 
+	vertical-align: top;
 	display: inline-block;
+	
 }
 
 .conhecimento li:hover{
@@ -348,7 +274,7 @@ footer{
 .reconhecimentoh1{
 	text-align: center;
 	padding-left: 50px;
-	font-size: 25px;
+	font-size: 22px;
 	font-style: italic; 
 	padding: 30px;
 	font-weight: bold;
@@ -376,15 +302,23 @@ footer{
 .teste2{
 
 	padding: 60px;
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.teste3{
+
+	width: 300px;
+	height: 300px;
 	border-radius: 50%;
 }
 
 .campoteste{
+	padding: 10px;
     max-width:500px;
     margin-left:130px;
-    font-size: 30px;
+    font-size: 25px;
     float:left;
     text-indent: 80px;
     text-align: justify;
@@ -444,4 +378,112 @@ footer{
 	width: 520px;
 	height: 330px;
 	border-radius: 1%;
+}
+
+.centroprojeto{
+
+	padding: 10px;
+	padding-left: 0px;
+	width: 570px;
+	height: 330px;
+	border-radius: 1%;
+
+}
+
+.display{
+
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.produto {
+	width: 600px;
+	margin: 0px;
+	padding: 5px 0;
+	
+}
+
+
+.produto li{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-top: 10px;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 20px;
+	padding-right: 210px;
+
+}
+
+.produto li:hover{
+	color: #9e0cf2;
+	border-color: #9e0cf2;
+	
+}
+
+.produto li:hover h2{
+
+	font-size: 20px;
+}
+
+.produto li:active{
+	color: red;
+	border-color: red;
+}
+
+
+.produto h2 {
+
+
+	font-weight:bold;
+	
+}
+
+.produto p {
+
+}
+
+.titulo-promocao{
+
+	padding-left: 200px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.descricao{
+
+	padding-left: 140px;
+	font-size: 10px;
+	text-align: justify;
+  	text-justify: inter-word;
+
+}
+
+.produto li:hover p{
+
+	font-size: 17px;
+}
+
+.precoprod{
+
+	font-size: 30px;
+	color: red;
+	margin: 23px;
+
+}
+
+footer{
+
+	text-align: center;
+	background: #000000;
+	padding: 40px 0;
+}
+
+.copyright{
+
+	color: #ffffff
+
 }
