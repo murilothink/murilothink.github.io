@@ -475,15 +475,18 @@ nav a{
 
 }
 
-footer{
+.footer{
 
-	text-align: center;
-	background: #000000;
-	padding: 40px 0;
+	background: #ffffff;
+	padding: 10px 1px;
 }
 
 .copyright{
 
-	color: #ffffff
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+
+}
 
 }
