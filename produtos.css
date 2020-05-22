@@ -18,8 +18,17 @@ header{
 	padding: 130px;
 
 
-
 }
+
+.a{
+
+	width:100px;
+    height:100px;
+    border: 10px;
+    border-radius:90px;
+}
+
+
 
 nav{
 
@@ -61,6 +70,21 @@ nav a{
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+.icons{
+
+	display: inline-block;
+}
+
+.icons a{
+
+	color: #ffffff
+}
+
+.icons a:hover{
+
+	color: black;
 }
 
 .produto {
@@ -142,8 +166,11 @@ footer{
 
 
 .topnav {
+
+
   background-color: #333;
   overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -163,6 +190,7 @@ footer{
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+
 }
 
 .circulo {
