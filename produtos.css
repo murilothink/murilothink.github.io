@@ -310,6 +310,12 @@ footer{
 
 }
 
+.hr3 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
 
 .reconhecimentoh1{
 	padding-left: 50px;
